@@ -81,6 +81,7 @@ body {
     font-weight: 800;
     margin: 0 auto 1rem;
     color: var(--primary-text-color);
+    line-height: 55px;
 }
 
 .hero-section .strating-price {
@@ -253,7 +254,7 @@ body {
 .click-question-sec {
     background-color: rgb(45 45 45);
     position: relative;
-    bottom: 7px;
+    bottom: 5px;
     padding: 1.5rem;
     display: none;
 }
@@ -408,8 +409,7 @@ input[type="checkbox"] {
 
 @keyframes Scroll-line {
     to {
-        transform: scale(1,
-         1);
+        transform: scale(1,1);
     }
 }
 
@@ -436,29 +436,54 @@ input[type="checkbox"] {
         font-size: 14px;
         width: 60%;
     }
+    .chinease-icon {
+        right: 102px;
+        top: 4px;
+    }
+    .contact-section-content p {
+        font-size: 16px;
+    }
+    .hero-section h1 {
+    line-height: 42px;
+    }
 }
 
 @media (max-width: 1080px) {
     .hero-section h1 {
-        width: 56%;
+        width: 63%;
     }
     .hero-section input {
         width: 50%;
     }
-
-    .hero-section button {
-        width: 15%;
-        padding: 15px;
+    .hero-section .strating-price {
+        width: 80%;
     }
-
-    .hero-section .right-arrow {
-        right: 3%;
+    .hero-section .membership-text {
+        width: 80%;
+    }
+    .hero-section button {
+        text-align: center;
+        width: 19%;
+        padding: 15px;
+        font-size: 16px;
+    }
+    .contact-section-buttons button {
+        text-align: center;
+        padding: 15px 12px;
+        width: 20%;
+        font-size: 16px;
+    }
+    .right-arrow {
+        display: none;
     }
     .second-section-content .trending-card-sec {
         column-gap: 30px;
     }
     .scroll-button {
-        right: 6.8%;
+        right: 6.5%;
+    }
+    .contact-section-buttons input {
+        width: 60%;
     }
     .trending-card-sec .card img {
         width: 150px;
@@ -479,5 +504,11 @@ input[type="checkbox"] {
     }
     .reason-card p {
         font-size: 16px;
+    }
+    .footer-link-section {
+        column-gap: 100px;
+    }
+    .container {
+        width: 90%;
     }
 }
