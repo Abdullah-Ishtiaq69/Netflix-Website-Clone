@@ -406,6 +406,9 @@ input[type="checkbox"] {
     animation-timeline: scroll();
     transform-origin: left;
 }
+.mobile-footer-link-section {
+    display: none;
+}
 
 @keyframes Scroll-line {
     to {
@@ -564,5 +567,77 @@ input[type="checkbox"] {
     .footer-link-section {
         justify-content: center;
         column-gap: 50px;
+    }
+}
+@media (max-width: 503px) {
+    .hero-section {
+        padding-top: 80px;
+    }
+    .hero-section h1 {
+        width: 90%;
+        line-height: 35px;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .hero-section .strating-price {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .hero-section .membership-text {
+        line-height: 22px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .hero-section input {
+        width: 90%;
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .hero-section button {
+        width: 50%;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+    .second-section-content .trending-card-sec {
+        width: 92%;
+    }
+    .contact-section-content p {
+        line-height: 25px;
+        font-weight: 600;
+    }
+    .contact-section-buttons input {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .contact-section-buttons button {
+        width: 50%;
+    }
+    .last-footer-section {
+        padding-bottom: 10px;
+    }
+    .last-footer-section-content {
+        display: none;
+    }
+    .mobile-footer-link-section-content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .mobile-footer-link-section > .first-mobile-link {
+        display: block;
+        padding: 30px 0;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+    .mobile-footer-link-section a {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .last-footer-button-section {
+        padding-bottom: 20px;
+    }
+    .last-div {
+        font-size: 14px;
     }
 }
